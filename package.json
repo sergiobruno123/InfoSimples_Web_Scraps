@@ -1,0 +1,19 @@
+{
+  "name": "infosimples_web_scraps",
+  "version": "1.0.0",
+  "description": "Web Scrapping InfoSimples",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\bruno\\Desktop\\InfoSimples_Web_Scraps\\Web_Scrapping_InfoSimples"
+  },
+  "author": "Sérgio Bruno P Brum",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request": "^2.88.2"
+  }
+}
