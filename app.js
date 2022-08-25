@@ -10,7 +10,7 @@ const respostaFinal = {};
 // Faz o request e manipula o corpo de resposta
 request(url, function (error, response, body) {
 const parsedHtml = cheerio.load(body);
-// Vamos pegar o título do produto, na tag H2, com ID "product_title"
+// Pega os dados da pagina e acrescenta no array para converter em json
 respostaFinal['title'] = parsedHtml('h2#product_title').text();
 respostaFinal['brand'] = parsedHtml('.brand').text();
 respostaFinal['categories'] = parsedHtml('.current-category').text();
